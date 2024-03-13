@@ -6,7 +6,7 @@ VILLAGES = set()
 TOWNSHIPS = set()
 CITIES = set()
 STATES = set()
-geolocator = Nominatim(domain="localhost:8080/", scheme="http", user_agent="myGeocoder")
+geolocator = Nominatim(domain="localhost:8081/", scheme="http", user_agent="myGeocoder")
 
 
 def get_township(latitude, longitude):
